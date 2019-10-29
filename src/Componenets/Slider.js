@@ -1,5 +1,4 @@
 import React from 'react';
-
 import Slider from 'react-animated-slider';
 import 'react-animated-slider/build/horizontal.css';
 
@@ -7,12 +6,12 @@ import 'react-animated-slider/build/horizontal.css';
 const content = [
 	{
         title: <img src="http://www.abigaylefranklin.com/THunter/img/logo-white.png" width="100%"/>,
-		image: 'http://www.abigaylefranklin.com/THunter/img/hero-img.jpg',
+		image: 'http://abigaylefranklin.com/THunter/imgs/004.jpg',
 	},
 	{
 		description:
 		<span><p>“Even when you’re sad and bad stuff is happening all around you, you can find something beautiful to take a picture of. Look for the beautiful things to tell a story.”</p><h2>Uncle Jimmy</h2></span>,
-		image: 'http://www.abigaylefranklin.com/THunter/img/port18.jpg',
+		image: 'http://abigaylefranklin.com/THunter/imgs/005.jpg',
 	},
 	{
         description:
@@ -23,7 +22,7 @@ const content = [
             <p>I didn’t understand at the time how <em>poignant & impactful</em> those times would be.</p>
 
         </span>,
-		image: 'http://www.abigaylefranklin.com/THunter/img/port16.jpg',
+		image: 'http://abigaylefranklin.com/THunter/imgs/006.jpg',
     },
     {
         description:
@@ -32,14 +31,14 @@ const content = [
             <p>When Uncle Jimmy he got his ALS diagnosis that is what he fell back on. He gifted me with that life changing lesson and also my first good cameras.  He wanted me to learn photography to see beauty around me. I understood that he needed me to look for picture stories for him as well. To shine a light for him during his darkest days. </p>
             <p>Over the years as one of his favorite hobbies was lost to him, he handed the mantle of it over to me. To help us both see the good around us, the beauty in the world and not get lost in the terrible darkness that ALS can bring to you. </p>
         </span>,
-		image: 'http://www.abigaylefranklin.com/THunter/img/port10.jpg',
+		image: 'http://abigaylefranklin.com/THunter/imgs/003.jpg',
     },
     {
         description:
         <span>
             <p>He left me in December 2018, for a moment I was lost in total <em>darkness</em> and thought our story had ended there and ALS had won.</p>
         </span>,
-		image: 'http://www.abigaylefranklin.com/THunter/img/port06.jpg',
+		image: 'http://abigaylefranklin.com/THunter/imgs/001.jpg',
     },
     {
         description:
@@ -50,8 +49,18 @@ const content = [
             <p>I will <em>donate</em> 100% of my photography to the ALS foundation so that one day, <br/>all of the stories have a different ending.</p>
 
         </span>,
-		image: 'http://www.abigaylefranklin.com/THunter/img/port14.jpg',
+		image: 'http://abigaylefranklin.com/THunter/imgs/002.jpg',
     },
+    {
+        description:
+        <span>
+            <button>Gallery</button>
+            <button>Classes</button>
+            <button>Photo Session</button>
+            <button>Shop</button>
+        </span>,
+        image: 'http://abigaylefranklin.com/THunter/imgs/007.jpg'
+    }
 ];
 
 class HeroSlider extends React.Component {
