@@ -8,21 +8,32 @@
 body {
   background: var(--white);
   color: var(--black);
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 62.5%
 }
 
 h1, h2, em {
-  font-family: 'Meddon', cursive;
+  font-family: 'Kristi', cursive;
 }
 
 em {
-  font-size: 1.6rem
+  font-size: 2.6rem
 }
 
 button {
-  background: var(--blue);
-  color: var(--pink)
+  background: #00000080;
+  color: var(--white);
+  height: 100px;
+  width: 40vw;
+  border-radius: 5px;
+  margin: 20px;
+  opacity: .5;
+  font-size: 3.6rem;
+  font-family: 'Raleway', sans-serif
+}
+
+button:hover {
+  background: #000000
 }
 
 .slide h1 {
@@ -228,15 +239,15 @@ button {
   margin: 0 auto;
   max-width: 840px;
   color: #FFFFFF;
-  font-size: 64px;
+  font-size: 6.4rem;
   line-height: 1;
 }
 
 .slider-content .inner p {
   color: #FFFFFF;
-  font-size: 14px;
+  font-size: 1.2rem;
   line-height: 1.5;
-  margin: 20px auto 30px;
+  margin: 15px auto 15px;
   max-width: 730px;
 }
 
@@ -252,7 +263,7 @@ button {
 
 .slider-content section span {
   color: rgba(255, 255, 255, 0.5);
-  font-size: 12px;
+  font-size: 1.2rem;
   display: inline-block;
   text-align: left;
   line-height: 1.4;
@@ -270,7 +281,7 @@ button {
 
 .slider-content section span strong {
   color: #FFFFFF;
-  font-size: 14px;
+  font-size: 1.4rem;
   display: block;
 }
 
@@ -288,12 +299,12 @@ button {
 
 @media (max-height: 600px) {
   .slider-content .inner h1 {
-    font-size: 32px;
+    font-size: 3.2rem;
   }    
 }
 
 @media (max-width: 640px) {
   .slider-content .inner h1 {
-    font-size: 32px;
+    font-size: 3.2rem;
   }
 }

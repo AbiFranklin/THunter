@@ -3,15 +3,16 @@ import Slider from 'react-animated-slider';
 import 'react-animated-slider/build/horizontal.css';
 
 
+
 const content = [
 	{
-        title: <img src="http://www.abigaylefranklin.com/THunter/img/logo-white.png" width="100%"/>,
-		image: 'http://abigaylefranklin.com/THunter/imgs/004.jpg',
+        title: <img src='http://www.abigaylefranklin.com/THunter/imgs/logo-white.png' width="100%"/>,
+		image: 'http://www.abigaylefranklin.com/THunter/imgs/slide01.jpg',
 	},
 	{
 		description:
-		<span><p>“Even when you’re sad and bad stuff is happening all around you, you can find something beautiful to take a picture of. Look for the beautiful things to tell a story.”</p><h2>Uncle Jimmy</h2></span>,
-		image: 'http://abigaylefranklin.com/THunter/imgs/005.jpg',
+		<span><p>“Even when you’re sad and bad stuff is happening all around you, you can find something beautiful to take a picture of. Look for the beautiful things to tell a story.”</p><h1>Uncle Jimmy</h1></span>,
+		image: 'http://www.abigaylefranklin.com/THunter/imgs/slide02.jpg'
 	},
 	{
         description:
@@ -22,7 +23,7 @@ const content = [
             <p>I didn’t understand at the time how <em>poignant & impactful</em> those times would be.</p>
 
         </span>,
-		image: 'http://abigaylefranklin.com/THunter/imgs/006.jpg',
+		image: 'http://www.abigaylefranklin.com/THunter/imgs/slide03.jpg'
     },
     {
         description:
@@ -31,25 +32,25 @@ const content = [
             <p>When Uncle Jimmy he got his ALS diagnosis that is what he fell back on. He gifted me with that life changing lesson and also my first good cameras.  He wanted me to learn photography to see beauty around me. I understood that he needed me to look for picture stories for him as well. To shine a light for him during his darkest days. </p>
             <p>Over the years as one of his favorite hobbies was lost to him, he handed the mantle of it over to me. To help us both see the good around us, the beauty in the world and not get lost in the terrible darkness that ALS can bring to you. </p>
         </span>,
-		image: 'http://abigaylefranklin.com/THunter/imgs/003.jpg',
+		image: 'http://www.abigaylefranklin.com/THunter/imgs/slide04.jpg'
     },
     {
         description:
         <span>
             <p>He left me in December 2018, for a moment I was lost in total <em>darkness</em> and thought our story had ended there and ALS had won.</p>
         </span>,
-		image: 'http://abigaylefranklin.com/THunter/imgs/001.jpg',
+		image: 'http://www.abigaylefranklin.com/THunter/imgs/slide05.jpg'
     },
     {
         description:
         <span>
-            <p>Then I remembered the light of photography, the beauty in a <em>picture story</em>, <br/>the lessons in life and photography that my Uncle Jimmy shared with me. <br/>I have decided that this will NOT be where our story ends. <br/>This is not how my story with my Uncle Jimmy will end and ALS will NOT win.</p> 
-            <p>I will <em>dedicate</em> my time and my energy to sharing the pictures I took for him to make him happy. <br/>I hope that they bless others and shine a small light for them as well.</p>
-            <p>I will <em>share</em> the lessons and the things that I know about photography with others so <br/>they too can shine lights by sharing beautiful things.</p>
-            <p>I will <em>donate</em> 100% of my photography to the ALS foundation so that one day, <br/>all of the stories have a different ending.</p>
+            <p>Then I remembered the light of photography, the beauty in a <em>picture story</em>, the lessons in life and photography that my Uncle Jimmy shared with me. I have decided that this will NOT be where our story ends. This is not how my story with my Uncle Jimmy will end and ALS will NOT win.</p> 
+            <p>I will <em>dedicate</em> my time and my energy to sharing the pictures I took for him to make him happy. I hope that they bless others and shine a small light for them as well.</p>
+            <p>I will <em>share</em> the lessons and the things that I know about photography with others so they too can shine lights by sharing beautiful things.</p>
+            <p>I will <em>donate</em> 100% of my photography to the ALS foundation so that one day, all of the stories have a different ending.</p>
 
         </span>,
-		image: 'http://abigaylefranklin.com/THunter/imgs/002.jpg',
+		image: 'http://www.abigaylefranklin.com/THunter/imgs/slide06.jpg'
     },
     {
         description:
@@ -59,7 +60,7 @@ const content = [
             <button>Photo Session</button>
             <button>Shop</button>
         </span>,
-        image: 'http://abigaylefranklin.com/THunter/imgs/007.jpg'
+        image: 'http://www.abigaylefranklin.com/THunter/imgs/slide07.jpg'
     }
 ];
 
