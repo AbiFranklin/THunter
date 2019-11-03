@@ -1,7 +1,16 @@
 import React from 'react';
 import Slider from 'react-animated-slider';
 import 'react-animated-slider/build/horizontal.css';
-
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link, Redirect
+  } from 'react-router-dom';
+import Gallery from './Gallery'
+import Classes from './Classes'
+import Shop from './Shop'
+import Sessions from './Sessions'
 
 
 const content = [
@@ -55,18 +64,20 @@ const content = [
     {
         description:
         <span>
-            <button>Gallery</button>
-            <button>Classes</button>
-            <button>Photo Session</button>
-            <button>Shop</button>
+            <a href='./gallery'><button>Gallery</button></a>
+            <a href='./classes'><button>Classes</button></a>
+            <a href='./sessions'><button>Photo Session</button></a>
+            <a href='./shop'><button>Shop</button></a>
         </span>,
         image: 'http://www.abigaylefranklin.com/THunter/imgs/slide07.jpg'
     }
 ];
 
 class HeroSlider extends React.Component {
+
     render () {
       return (
+          <div>
         <Slider className="slider-wrapper">
         {content.map((item, index) => (
             <div
@@ -81,6 +92,7 @@ class HeroSlider extends React.Component {
             </div>
         ))}
     </Slider>
+  </div>
       )
     }
   }

@@ -1,14 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import HeroSlider from './Componenets/Slider'
+import HeroSlider from './Componenets/Slider';
 
-function App() {
-  return (
-    <div className="App">
+
+
+class App extends React.Component {
+  render(){
+    return(
       <HeroSlider />
-    </div>
-  );
+    )
+  }
 }
 
 export default App;
